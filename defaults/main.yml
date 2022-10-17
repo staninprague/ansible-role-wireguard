@@ -6,9 +6,6 @@
 # General settings
 #######################################
 
-
-
-
 # Directory to store WireGuard configuration on the remote hosts
 wireguard_remote_directory: "{{ '/etc/wireguard' if not ansible_os_family == 'Darwin' else '/opt/local/etc/wireguard' }}"
 
